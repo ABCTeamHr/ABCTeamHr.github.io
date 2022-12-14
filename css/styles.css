@@ -1320,7 +1320,7 @@ body {
   cursor: pointer;
   border: 1px solid #333;
   z-index: 10;
-  bottom: -17px
+  bottom: -45px
 }
 .slick-arrow span, .slick-arrow span::after, .slick-arrow span::before {
   display: block;
@@ -1648,5 +1648,13 @@ body {
   }
   .contact__body-heading {
     font-size: 26px
+  }
+  .notifications {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .offer__list-item-inner {
+    min-height: 414px;
   }
 }
