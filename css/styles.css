@@ -1662,4 +1662,8 @@ body {
   .offer__list-item-inner {
     min-height: 4px;
   }
+   
+  #four_block {
+    min-height: 612px;
+  }
 }
