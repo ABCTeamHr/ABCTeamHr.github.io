@@ -903,7 +903,7 @@ body {
   padding: 40px;
   margin-bottom: 53px;
   /* min-height: 768px; */
-  min-height: 625px;
+  min-height: 725px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -919,6 +919,11 @@ body {
   -ms-flex-pack: justify;
   /* justify-content: space-between; */
   color: #333
+}
+@media screen and (max-width: 900px){
+    .offer__list-item-inner {
+      min-height: 607px;
+    }
 }
 .offer__list-item-inner.bg-gradient::before {
   height: 480px;
@@ -971,7 +976,7 @@ body {
   height: auto
 }
 .notifications {
-  margin-top: 121px
+  /* margin-top: 121px */
 }
 .footer__content, .notifications__content {
   box-sizing: border-box;
