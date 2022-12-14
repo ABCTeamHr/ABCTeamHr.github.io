@@ -1658,3 +1658,8 @@ body {
     min-height: 414px;
   }
 }
+@media screen and (orientation: landscape) {
+  .offer__list-item-inner {
+    min-height: 4px;
+  }
+}
