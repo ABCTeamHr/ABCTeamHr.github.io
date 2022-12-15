@@ -1653,12 +1653,12 @@ body {
     margin-top: 70px;
   }
 }
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .offer__list-item-inner {
     min-height: 414px;
   }
-}
-@media screen and (orientation: landscape) {
+} */
+@media screen and (orientation: landscape) and (min-height: 200px) {
   .offer__list-item-inner {
     min-height: 4px;
   }
