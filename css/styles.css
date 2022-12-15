@@ -1445,18 +1445,27 @@ body {
 @media screen and (max-width: 700px) {
   
 }
+
+
+
+
+
+/* only Safari browser  */
+
 @media not all and (min-resolution:.001dpcm)
 { @supports (-webkit-appearance:none) {
-  .benefits__list-item-icon {
-    background-color:#ce2626; 
-
+  .offer__list-item-inner {
+    min-height: 4px;
   }
-    /* .safari_only { 
-
-        color:#0000FF; 
-
-    } */
 }}
+
+
+
+
+
+
+
+
 @media screen and (max-width:780px) {
   .container, .debug>div, .navigation {
     padding-left: 15px;
