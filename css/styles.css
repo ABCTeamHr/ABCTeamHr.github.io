@@ -930,15 +930,19 @@ body {
     
     #four_block {
       min-height: 727px;
+      -webkit-min-height: 727px;
     }
 }
 
 @media screen and (max-width: 900px){
+    
     .offer__list-item-inner {
       min-height: 607px;
+      -webkit-min-height: 607px
     }
     #four_block {
       min-height: 607px;
+      -webkit-min-height: 607px
     }
 }
 .offer__list-item-inner.bg-gradient::before {
@@ -1592,6 +1596,7 @@ body {
   .offer__list-item-inner {
     padding: 38px 20px;
     min-height: 514px;
+    -webkit-min-height: 514px;
     margin: 0
   }
   .offer__list-item-header {
