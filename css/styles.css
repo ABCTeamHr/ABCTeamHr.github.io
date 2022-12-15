@@ -1454,9 +1454,13 @@ body {
 
 @media not all and (min-resolution:.001dpcm)
 { @supports (-webkit-appearance:none) {
-  .offer__list-item-inner {
+  /* .offer__list-item-inner {
     min-height: 4px;
-  }
+  } */
+
+  .offer__list-item-img {
+    width: 150%;
+}
 }}
 
 
