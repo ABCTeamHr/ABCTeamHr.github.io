@@ -1442,6 +1442,21 @@ body {
     margin-left: calc(0% + 20px)
   }
 }
+@media screen and (max-width: 700px) {
+  
+}
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+  .benefits__list-item-icon {
+    background-color:#ce2626; 
+
+  }
+    /* .safari_only { 
+
+        color:#0000FF; 
+
+    } */
+}}
 @media screen and (max-width:780px) {
   .container, .debug>div, .navigation {
     padding-left: 15px;
@@ -1597,6 +1612,7 @@ body {
     padding: 38px 20px;
     min-height: 514px;
     -webkit-min-height: 514px;
+    -webkit-background-color: red;
     margin: 0
   }
   .offer__list-item-header {
