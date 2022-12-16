@@ -945,6 +945,15 @@ body {
       -webkit-min-height: 607px
     }
 }
+
+object {
+  width: 100%;
+  display: block;
+  height: auto;
+  position: relative;
+  padding-top: 100%;
+}
+  
 .offer__list-item-inner.bg-gradient::before {
   height: 480px;
   width: 810px;
@@ -1462,15 +1471,6 @@ body {
     /* width: 140%; */
   }
 }}
-
-@media not all and (min-resolution:.001dpcm) and (max-width:500px) {
-  @supports(-webkit-apperance:none) {
-    .offer__list-item-img {
-      width: 40%;
-    }
-  }  
-}
-
 
 
 /* __________ */
