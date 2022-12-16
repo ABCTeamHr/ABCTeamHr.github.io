@@ -1460,14 +1460,20 @@ body {
 
   .offer__list-item-img {
     width: 140%;
-}
+  }
 }}
 
+@media not all and (min-resolution:.001dpcm) and (max-width:500px) {
+  @supports(-webkit-apperance:none) {
+    .offer__list-item-img {
+      width: 40%;
+    }
+  }  
+}
 
 
 
-
-
+/* __________ */
 
 
 @media screen and (max-width:780px) {
