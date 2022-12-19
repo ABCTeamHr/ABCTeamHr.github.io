@@ -945,14 +945,6 @@ body {
       -webkit-min-height: 607px
     }
 }
-
-object {
-  width: 100%;
-  display: block;
-  height: auto;
-  position: relative;
-  padding-top: 100%;
-}
   
 .offer__list-item-inner.bg-gradient::before {
   height: 480px;
