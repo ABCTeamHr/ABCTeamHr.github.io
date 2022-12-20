@@ -937,11 +937,11 @@ body {
 	left: 0;
 }
 
-#svg-container-1 {
+.svg-container-1 {
   display: inline-block;
 	position: relative;
 	width: 100%;
-	padding-bottom: 110%; 
+	padding-bottom: 30%; 
 	vertical-align: middle; 
 	overflow: hidden; 
 }
@@ -1729,7 +1729,7 @@ body {
   .notifications {
     margin-top: 70px;
   }
-  #svg-container-1{
+  .svg-container-1{
     padding-bottom: 60%;
   }
 }
@@ -1744,7 +1744,7 @@ body {
     margin-top: 0px;
   }
   .svg-container {
-	  padding-bottom: 60%; 
+	  padding-bottom: 115%; 
   }
 }
 /* @media screen and (orientation: landscape) and (min-height: 200px) {
