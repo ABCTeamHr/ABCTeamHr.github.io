@@ -1701,11 +1701,17 @@ body {
     margin-top: 70px;
   }
 }
-/* @media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .offer__list-item-inner {
-    min-height: 414px;
+    min-height: 4px;
   }
-} */
+  .slick-arrow {
+    bottom: 32px;
+  }
+  .notifications {
+    margin-top: 0px;
+  }
+}
 /* @media screen and (orientation: landscape) and (min-height: 200px) {
   .offer__list-item-inner {
     min-height: 4px;
