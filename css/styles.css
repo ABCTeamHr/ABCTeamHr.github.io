@@ -920,9 +920,9 @@ body {
   justify-content: space-between;
   color: #333
 }
-.offer__list-item-inner:last-child {
+/* .offer__list-item-inner:last-child {
   justify-content: normal;
-}
+} */
 
 .svg-container { 
 	display: inline-block;
