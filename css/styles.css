@@ -899,6 +899,10 @@ body {
   width: -webkit-calc(50% - 40px);
   width: calc(50% - 40px)
 }
+/* .offer__list-item:last-child {
+  width: calc(50% - 40px);
+} */
+
 .offer__list-item-inner {
   padding: 40px;
   margin-bottom: 53px;
@@ -920,9 +924,7 @@ body {
   justify-content: space-between;
   color: #333
 }
-/* .offer__list-item-inner:last-child {
-  justify-content: normal;
-} */
+
 
 .svg-container { 
 	display: inline-block;
@@ -944,6 +946,7 @@ body {
   display: inline-block;
 	position: relative;
 	width: 100%;
+  -webkit-width: 50%;
 	padding-bottom: 33%; 
 	vertical-align: middle; 
 	overflow: hidden; 
