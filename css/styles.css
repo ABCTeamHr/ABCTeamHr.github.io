@@ -946,11 +946,17 @@ body {
   display: inline-block;
 	position: relative;
 	width: 100%;
-  -webkit-width: 50%;
 	padding-bottom: 33%; 
 	vertical-align: middle; 
 	overflow: hidden; 
 }
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+  .svg-container-1 {
+    width: 50%;
+  }
+}}
 
 /* @media screen and (max-width: 900px){
     
