@@ -801,6 +801,20 @@ body {
   top: 22px;
   left: 4px
 }
+.modal {
+}
+.modal__container {
+  width: 100vw;
+  position: fixed;
+  background-color: #91899ab6;
+  height: 100vh;
+  z-index: 3;
+}
+
+.modal__content {
+
+}
+
 .benefits {
   margin-top: 170px
 }
