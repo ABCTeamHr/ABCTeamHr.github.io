@@ -812,6 +812,73 @@ body {
 }
 
 .modal__content {
+  width: 50%;
+  height: 60%;
+  background-color: #fef0ff;
+  border-radius: 5%;
+  position: absolute;
+  top: 18%;
+  left: 25%;
+}
+
+.modal__header {
+  width: 577px;
+height: 144px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 48px;
+/* or 109% */
+
+text-align: center;
+
+color: #333333;
+}
+
+.modal__text {
+  width: 500px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 130%;
+/* or 29px */
+
+text-align: center;
+}
+
+.modal__button {
+  /* display: flex; */
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 26px 227px;
+gap: 10px;
+
+width: 558px;
+height: 81px;
+
+background: #333333;
+border-radius: 15px;
+}
+
+.modal__button p {
+  width: 104px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 130%;
+/* identical to box height, or 29px */
+
+
+color: #FFFFFF;
 
 }
 
