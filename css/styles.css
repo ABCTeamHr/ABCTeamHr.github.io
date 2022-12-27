@@ -356,7 +356,8 @@ body {
   overflow-y: hidden;
   height: 100vh;
   position: fixed;
-  
+  width: -webkit-fill-available;
+
   background-color: #fff;
   font-family: Inter, sans-serif;
   font-weight: 400;
