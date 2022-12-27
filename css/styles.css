@@ -353,6 +353,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.09
 }
 body {
+  overflow-y: hidden;
+  height: 100vh;
+  
   background-color: #fff;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -801,85 +804,111 @@ body {
   top: 22px;
   left: 4px
 }
+
 .modal {
-}
-.modal__container {
-  width: 100vw;
   position: fixed;
+  width: 100%;
+  height: 100%;
   background-color: #91899ab6;
-  height: 100vh;
+  top: 0;
+  left: 0;
   z-index: 3;
 }
 
+.modal__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 150px;
+}
 .modal__content {
-  width: 50%;
-  height: 60%;
-  background-color: #fef0ff;
-  border-radius: 5%;
-  position: absolute;
-  top: 18%;
-  left: 25%;
+  width: 741px;
+  max-width: 100%;
+  max-height: 533px;
+  border-radius: 30px;
+  background-color: #f7f5f4;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__box {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 
 .modal__header {
-  width: 577px;
-height: 144px;
+  max-width: 577px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 44px;
-line-height: 48px;
-/* or 109% */
-
-text-align: center;
-
-color: #333333;
+  color: #333333;;
 }
 
 .modal__text {
-  width: 500px;
-height: 58px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 130%;
-/* or 29px */
+  margin: 40px 0px;
 
-text-align: center;
+  text-align: center;
+  color: #333333;
+
+  opacity: 0.7;
+
+}
+
+.modal__close {
+  color: #f7f5f4;
+  font-size: 45px;
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: calc(100% - 72px);
 }
 
 .modal__button {
-  /* display: flex; */
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 26px 227px;
-gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 227px;
+  gap: 10px;
 
-width: 558px;
-height: 81px;
+  width: 558px;
+  height: 81px;
 
-background: #333333;
-border-radius: 15px;
+  background: #333333;
+  border-radius: 15px;
 }
 
 .modal__button p {
   width: 104px;
-height: 29px;
+  height: 29px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 130%;
-/* identical to box height, or 29px */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
 
-
-color: #FFFFFF;
-
+  color: #FFFFFF;
 }
 
 .benefits {

@@ -30,6 +30,13 @@
         position: absolute;
         min-height: 45%;
       }
+      .modal__body {
+        padding: 30px 12%;
+      }
+      .modal__button {
+        padding: 26px 50%;
+        width: 50%;
+      }
 }
 @media screen and (max-width: 781px) {
     .container, .debug>div, .navigation {
@@ -277,7 +284,43 @@
         max-width: 100%;
         padding-top: 67px;
       }
+      .modal__body {
+        padding: 20px 15%;
+      }
+      .modal__button {
+        padding: 12px 60%;
+        width: 35%;
+        height: 51px;
+      }
+      .modal__button p {
+        font-size: 19px;
+      }
+      .modal__content {
+        max-height: 488px;
+      }
+      .modal__header {
+        font-size: 28px;
+        line-height: 30px;
+      }
+      .modal__text {
+        font-size: 18px;
+        line-height: 120%;
+      }
 }
+
+@media screen and (max-width: 768px) {
+  .modal__close {
+    color: black;
+    font-size: 2rem;
+  }
+  .modal__body {
+    padding: 0;
+  }
+  .modal {
+      background-color: #f7f5f4;
+  }
+}
+
 @media screen and (max-width: 480px) {
     .offer__list-item-header {
         font-size: 20px;
