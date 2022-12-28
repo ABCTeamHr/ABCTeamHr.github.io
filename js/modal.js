@@ -7,3 +7,7 @@ label[0].addEventListener('click', function () {
     //  добавить правильную позицию для боди 
     document.body.style.position = 'static'
 });
+
+
+
+

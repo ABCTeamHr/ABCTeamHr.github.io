@@ -286,6 +286,22 @@
       }
       .modal__body {
         padding: 20px 15%;
+        /* моя сборка */
+        /* background: #EEE3F2;
+        background: -moz-linear-gradient(-45deg, #EEE3F2 0%, #F6F2F4 50%, #F2E6F2 100%);
+        background: -webkit-linear-gradient(-45deg, #EEE3F2 0%, #F6F2F4 50%, #F2E6F2 100%);
+        background: linear-gradient(135deg, #EEE3F2 0%, #F6F2F4 50%, #F2E6F2 100%); */
+        
+        background: #EDC2FF;
+        background: -moz-linear-gradient(-45deg, #EDC2FF 0%, #F6F6F6 54%, #EDC2FF 100%);
+        background: -webkit-linear-gradient(-45deg, #EDC2FF 0%, #F6F6F6 54%, #EDC2FF 100%);
+        background: linear-gradient(135deg, #EDC2FF 0%, #F6F6F6 54%, #EDC2FF 100%);
+
+        /* с фигмы */
+        /* background: radial-gradient(59.57% 65.09% at 18.36% 74.05%, #420DDE 0%, #B10BD4 100%) warning: gradient uses a rotation that is not supported by CSS and may not behave as expected; */
+        /* opacity: 0.1; */
+        /* filter: blur(200px);   */
+
       }
       .modal__button {
         padding: 12px 60%;
@@ -297,6 +313,7 @@
       }
       .modal__content {
         max-height: 488px;
+        background-color: #eee3f200;
       }
       .modal__header {
         font-size: 28px;
@@ -305,6 +322,15 @@
       .modal__text {
         font-size: 18px;
         line-height: 120%;
+        margin: 19px 0px 40px 0px;
+        padding-bottom: 41px;
+      }
+
+      .svg_close_white {
+        display: none;
+      }
+      .svg_close_black {
+        display: block;
       }
 }
 
@@ -324,6 +350,12 @@
 @media screen and (max-width: 480px) {
     .offer__list-item-header {
         font-size: 20px;
+    }
+    .modal__content {
+      padding: 0px 36px;
+    }
+    .modal__button {
+      padding: 26px 54%;
     }
 }
 @media screen and (max-width: 320px) {
