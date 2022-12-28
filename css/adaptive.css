@@ -357,10 +357,12 @@
         font-size: 20px;
     }
     .modal__content {
-      padding: 0px 36px;
+      padding: 0px 0px;    
     }
     .modal__button {
-      padding: 26px 54%;
+      padding: 26px 0%;
+      max-width: 345px;
+      width: 100%;
     }
 }
 @media screen and (max-width: 320px) {
