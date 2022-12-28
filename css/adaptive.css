@@ -366,5 +366,7 @@
     }
 }
 @media screen and (max-width: 320px) {
-    
+    .modal__button {
+      width: 85%; 
+    }
 }
