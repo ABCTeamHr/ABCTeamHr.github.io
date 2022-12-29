@@ -854,7 +854,8 @@ body {
   max-width: 51%;
   max-height: 100%;
   
-  top: 183px;
+  /* top: 183px; */
+  top: 16%;
 
   border-radius: 30px;
 
