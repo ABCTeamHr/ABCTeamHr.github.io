@@ -459,6 +459,7 @@
     /* left: 15px; */
     top: 509px;
 
+	text-decoration: none;
     background: #333333;
     border-radius: 10px;
 	color: #f7f5f4;
@@ -479,6 +480,7 @@
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     opacity: 0.1;
     filter: blur(200px);
+	pointer-events: none;
   }
   .mobile_gradient_2 {
     position: absolute;
@@ -495,6 +497,7 @@
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     opacity: 0.1;
     filter: blur(200px);
+	pointer-events: none;
   }
 }
 

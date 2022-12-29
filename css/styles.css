@@ -681,6 +681,11 @@ body {
 .benefits__list-item:last-child, .navigation__mobile-logo-link, .notifications__list-item:last-child {
   margin-bottom: 0
 }
+
+.notification__image {
+  width: 100%;
+}
+
 .hero.opened .hero__background {
   border-radius: 0
 }
