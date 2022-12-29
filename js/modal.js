@@ -8,6 +8,10 @@ label[0].addEventListener('click', function () {
     document.body.style.position = 'static'
 });
 
+let windows = document.querySelectorAll('html')
 
 
 
+window.addEventListener('resize', function() {
+    console.dir(windows[0].clientWidth)
+})
