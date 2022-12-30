@@ -1203,7 +1203,10 @@ body {
   margin-top: 20px
 }
 .offer {
-  margin-top: 70px;
+  /* было */
+  /* margin-top: 70px; */
+
+  margin-top: 170px;
   padding-bottom: 64px
 }
 .offer__header {
@@ -1350,7 +1353,7 @@ body {
   height: auto
 }
 .notifications {
-  /* margin-top: 121px */
+  margin-top: 121px
 }
 .footer__content, .notifications__content {
   box-sizing: border-box;
@@ -1411,7 +1414,7 @@ body {
   display: block
 }
 .facebook {
-  margin-top: 30px
+  margin-top: 143px
 }
 .facebook__heading {
   box-sizing: border-box;
@@ -1459,7 +1462,7 @@ body {
   margin-top: 20px
 }
 .contact, .pricing {
-  margin-top: 70px
+  margin-top: 170px
 }
 .pricing__heading {
   box-sizing: border-box;

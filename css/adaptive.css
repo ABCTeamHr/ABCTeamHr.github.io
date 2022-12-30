@@ -53,7 +53,9 @@
   }
   #four_block {
     position: absolute;
-    min-height: 70%;
+    /* min-height: 70%; */
+
+    min-height: 53%;
   }
   .modal__body {
     /* padding: 30px 12%; */
@@ -234,6 +236,7 @@
   }
   .offer {
     padding-bottom: 0;
+    margin-top: 70px;
   }
   .offer__header {
     padding-right: 0;
