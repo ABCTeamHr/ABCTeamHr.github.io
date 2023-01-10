@@ -25,6 +25,3 @@ const mobileModalClose = () => {
 }
 
 mobile_close[0].addEventListener('click', mobileModalClose, {once:true})
-
-// console.dir(mobile_modal);
-
